@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Ham from './ham.jsx';
+import Logo from './logo.jsx';
+import Header from './header.jsx';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+  <Ham></Ham>
+  <Logo></Logo>
+  <div className="wrapper"><Header></Header></div>
+  <h1>welcome to cube books, the no 1 place to get all your books for free</h1>
+</div>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
