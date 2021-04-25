@@ -13,7 +13,7 @@ class Books extends React.Component{
 
             </div>
             <button>
-               go
+               Go
             </button>
             </section>
         )

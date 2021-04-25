@@ -9,8 +9,11 @@
     transform:translate(0,-50%);
 }
 input{
-    padding-left:7%;
-    margin-right:15px;
+    box-sizing: border-box;
+    padding-left:15px;
+    /* margin-right:15px; */
+    height: 30px;
+    width: 100%;
 }
 input:focus{
     outline:none;
@@ -18,17 +21,26 @@ input:focus{
 code{
     /* width:90%; */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.5rem;
+    text-align: center;
 }
 section{
-    display:grid;
+    display:flex;
     justify-content: center;
-    /* flex-flow:row wrap; */
-    grid-template-columns: auto;
-    grid-gap:5px;
+    width:min(450px,85%);
+    flex-flow:row wrap;
+    /* grid-template-columns:100%; */
+    /* grid-gap:5px; */
+   margin:0 auto;
+}
+section>*{
+    width:100%;
+    margin-top:10px;
 }
 button{
     background: linear-gradient(to right, #16222a, #3a6073); 
     color:white;
     border:none;
     border-radius: 5px;
+    height:25px;
 }
