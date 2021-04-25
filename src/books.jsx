@@ -6,6 +6,7 @@ class Books extends React.Component{
     render(){
         return(
             <section>
+                <code>search for books,subjects,authors</code>
              <div className="in">
             <input type="text" placeholder="search"/>
             <FontAwesomeIcon className="ico" icon={faSearch} />

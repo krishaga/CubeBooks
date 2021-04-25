@@ -1,5 +1,6 @@
 .in{
     position:relative;
+    /* width: 90%; */
 }
 .ico{
     position:absolute;
@@ -14,7 +15,20 @@ input{
 input:focus{
     outline:none;
 }
+code{
+    /* width:90%; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 section{
-    display:flex;
+    display:grid;
     justify-content: center;
+    /* flex-flow:row wrap; */
+    grid-template-columns: auto;
+    grid-gap:5px;
+}
+button{
+    background: linear-gradient(to right, #16222a, #3a6073); 
+    color:white;
+    border:none;
+    border-radius: 5px;
 }
