@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Original+Surfer&display=swap');
 .in{
     position:relative;
     /* width: 90%; */
@@ -20,7 +21,8 @@ input:focus{
 }
 code{
     /* width:90%; */
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'New Tegomin', serif;
+    font-weight:bold;
     font-size:1.5rem;
     text-align: center;
 }

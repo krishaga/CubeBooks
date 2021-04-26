@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
 .wrapper{
   display:flex;
   flex-flow:row wrap;
@@ -8,15 +9,13 @@
 }
 
 h1{
-  display:flex;
-  justify-content: center;
-  font-family:cursive;
+ 
+  font-family: 'Original Surfer', cursive;
   font-size:2rem;
-  background:linear-gradient(to right,#C02425,#F0CB35);
+  background:linear-gradient(to right,#283c86,#45a247);
   -webkit-background-clip:text;
   color: transparent;
-  text-indent:-50vw;
-  padding-left:50vw;
+  text-align:center;
 }
 @media only screen and (max-width:1100px){
   :root{

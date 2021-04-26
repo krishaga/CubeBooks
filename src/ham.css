@@ -3,7 +3,34 @@
 }
 .bar{
     width:30px;
-    height:5px;
+    height:3px;
     background:black;
-    margin-bottom:5px;
+    margin-bottom:3px;
+    --deg:60deg;
+    /* transform-origin: 0% 50%; */
+    --op:1;
+}
+.bar:nth-child(3){
+    --deg:-60deg;
+    /* transform-origin: 30% 50%; */
+}
+.bar:nth-child(2){
+    --op:0;
+    opacity: 1;
+    --deg:0deg;
+}
+.anime > .bar{
+animation: rot 1s forwards;
+}
+/* .anime .bar:nth-child(3){
+    animation: rot;
+} */
+@keyframes rot{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(var(--deg));
+        opacity: var(--op);
+    }
 }
