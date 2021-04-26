@@ -5,8 +5,8 @@ float:left;
 transform:translate(-20%,-20%);
 }
 .header{
- 
-    width:90%;
+    
+    width:90vw;
     max-height:100px;
     display:flex;
     justify-content: center;

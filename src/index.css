@@ -2,7 +2,8 @@
 .wrap{
   display:flex;
   justify-content: center;
-  margin:0 auto;
+  /* margin:0 auto; */
+  width:100%;
 }
 .wrapper{
   display:grid;
@@ -25,6 +26,9 @@ h1{
   background:linear-gradient(to right,#283c86,#45a247);
   -webkit-background-clip:text;
   color: transparent;
+  display:flex;
+  justify-content: center;
+  width:100%;
   text-align:center;
 }
 @media only screen and (max-width:1100px){
