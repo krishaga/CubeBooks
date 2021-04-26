@@ -5,16 +5,20 @@ import Logo from './logo.jsx';
 import Header from './header.jsx';
 import Books from './books.jsx';
 import './index.css';
+import Contact from './contact.jsx';
 ReactDOM.render(
   <div id="page">
   <div id="home">
   <Ham></Ham>
   <Logo></Logo>
-  <div className="wrapper"><Header></Header></div>
+ <div class="wrap"><Header></Header></div>
   <h1>welcome to cube books, the no 1 place to get all your books for free</h1>
 </div>
+<div class="wrapper">
 <div id="books">
 <Books></Books>
+</div>
+<div id="contanct"><Contact></Contact></div>
 </div>
 </div>,
   document.getElementById('root')

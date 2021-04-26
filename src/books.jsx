@@ -15,6 +15,10 @@ class Books extends React.Component{
             <button>
                Go
             </button>
+            <h2>Available Books</h2>
+            <div className="avb">
+                
+            </div>
             </section>
         )
     }
