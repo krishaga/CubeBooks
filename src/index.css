@@ -10,14 +10,12 @@
   justify-content:space-around;  
 
   }
-/* #books{
-width:450px;
-grid-column:1/2;
+ #books{
+margin:0 auto;
 }
 #contact{
-  width:450px;
-  grid-column:2/3;
-} */
+ margin:0 auto;
+} 
 
 h1{
  

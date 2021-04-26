@@ -34,7 +34,7 @@ section{
     flex-flow:row wrap;
     /* grid-template-columns:100%; */
     /* grid-gap:5px; */
-   margin:0 5%;
+   margin:0 auto;
 }
 section>*{
     width:100%;
