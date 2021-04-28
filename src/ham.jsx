@@ -8,6 +8,7 @@ class Ham extends React.Component{
 
 toggle=()=>{
     document.getElementsByClassName("ham")[0].classList.toggle("anime");
+    document.getElementsByClassName("nav")[0].classList.toggle("navAnime");
 }
     render(){
         return (

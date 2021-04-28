@@ -6,10 +6,12 @@ import Header from './header.jsx';
 import Books from './books.jsx';
 import './index.css';
 import Contact from './contact.jsx';
+import Nav from './Nav.jsx';
 ReactDOM.render(
   <div id="page">
   <div id="home">
-  <Ham></Ham>
+  <Ham class="h"></Ham>
+  <Nav class="n"></Nav>
   <Logo></Logo>
  <div class="wrap"><Header></Header></div>
   <h1>welcome to cube books, the no 1 place to get all your books for free</h1>
@@ -18,7 +20,7 @@ ReactDOM.render(
 <div id="books">
 <Books></Books>
 </div>
-<div id="contanct"><Contact></Contact></div>
+<div id="contact"><Contact></Contact></div>
 </div>
 </div>,
   document.getElementById('root')

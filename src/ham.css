@@ -1,5 +1,13 @@
 .ham{
     float:right;
+    /* position:absolute; */
+    z-index: 2;
+    /* margin-top:150px; */
+    /* margin-right:5px; */
+}
+.anime{
+    /* margin-right:200px; */
+   animation:move 1s forwards;
 }
 .bar{
     width:30px;
@@ -21,6 +29,7 @@
 }
 .anime > .bar{
 animation: rot 1s forwards;
+
 }
 /* .anime .bar:nth-child(3){
     animation: rot;
@@ -32,5 +41,13 @@ animation: rot 1s forwards;
     to{
         transform:rotate(var(--deg));
         opacity: var(--op);
+    }
+}
+@keyframes move{
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform:translate(-200px,0);
     }
 }

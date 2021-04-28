@@ -38,7 +38,7 @@ section{
 }
 section>*{
     width:100%;
-    margin-top:10px;
+    margin-bottom:10px;
 }
 button{
     background: linear-gradient(to right, #16222a, #3a6073); 
