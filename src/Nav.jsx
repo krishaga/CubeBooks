@@ -5,9 +5,10 @@ class Nav extends React.Component{
     render(){
         return(
             <div className="nav">
-            <a href="#books" className="jj">Books<br></br></a>
-           
+            <div className="link"><a href="#books" className="jj">Books<br></br></a>
+            <br></br>
             <a href="#contact">Contact</a>
+            </div>
             </div>
         )
 

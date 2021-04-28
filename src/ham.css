@@ -51,3 +51,9 @@ animation: rot 1s forwards;
         transform:translate(-200px,0);
     }
 }
+@media only screen and (min-width:850px){
+    .ham{
+        display:none;
+    }
+    
+}

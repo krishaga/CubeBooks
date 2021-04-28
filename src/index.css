@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
-body{
+body,html{
+  max-width:100%;
   overflow-x:hidden;
 
 }
@@ -59,6 +60,7 @@ position: absolute;
     grid-template-columns: auto;
     justify-content: center;
   }
+  
 }
 @media only screen and (max-width:600px){
   :root{
