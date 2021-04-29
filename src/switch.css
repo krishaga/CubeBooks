@@ -1,0 +1,98 @@
+.sun{
+    position:relative;
+    float:right;
+    width: 15px;
+    height:15px;
+    background:black;
+    border-radius:50%;
+    margin-right:15px;
+    top:7px;
+}
+.sun::after{
+    content: "";
+    position:absolute;
+    width:3px;
+    height:22px;
+    background:black;
+    border-radius:1.3rem;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.sun::before{
+    content: "";
+    position:absolute;
+    width:22px;
+    height:3px;
+    background:black;
+    border-radius:1.3rem;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.rays{
+    position:absolute;
+    width:3px;
+    height:22px;
+    background:black;
+    border-radius:1.3rem;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+
+}
+.eclipse{
+    width:0px;
+    height:0px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    top:10%;
+    left: -50%;
+    /* animation:show 1s forwards; */
+}
+.rays:nth-of-type(2){
+    transform:translate(-50%,-50%) rotate(-45deg);
+}
+.fadeAnime::before,.fadeAnime::after , .fadeAnime:not(.sun){
+    
+    animation:fadeOut 1s forwards;
+}
+/* .sun::before .sun::after .rays{
+    animation:fadeIn 1s forwards;
+} */
+.hideAnime{
+    animation:hide 1s forwards;
+}
+@keyframes fadeOut {
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}
+@keyframes hide {
+    to{
+        width:15px;
+        height:15px;
+    }
+}
+/* @keyframes show {
+    from{
+        width:15px;
+        height:15px;
+    }
+    to{
+        width:0;
+        height:0;
+    }
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to
+} */

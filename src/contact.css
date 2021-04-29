@@ -17,6 +17,13 @@ textarea{
 background:var(--btn);
 animation:pulse 0.5s forwards;
 }
+.name{
+    border-radius:5px;
+    border:1px solid black;
+}
+.name:focus , textarea:focus{
+    outline:none;
+}
 @keyframes pulse {
     from{
         box-shadow:0px 0px 1px 0px rgba(252, 68, 69,0.5);
