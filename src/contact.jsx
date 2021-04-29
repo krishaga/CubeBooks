@@ -4,8 +4,8 @@ class Contact extends React.Component{
     render(){
         return(
             <section>
-            <code>Contact US</code>
-            <code>Want to leave a feedback or want a book which you can't find?
+            <code className="clr">Contact US</code>
+            <code className="clr">Want to leave a feedback or want a book which you can't find?
                 feel free to contact us
             </code>
             <textarea placeholder="Enter your message"></textarea>

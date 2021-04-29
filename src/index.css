@@ -4,6 +4,13 @@ body,html{
   overflow-x:hidden;
 
 }
+body{
+ --bg:rgb(21,29,38);
+}
+code,h2{
+  --cl:white;
+  --bg:transparent;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -49,6 +56,13 @@ h1{
 .h{
 position: absolute;
 }
+.eclipse{
+  --bg:#151d26;
+}
+.clrAnime{
+  animation:changeClr 0.5 forwards;
+}
+
 @media only screen and (max-width:1100px){
   :root{
     font-size: 12px;
@@ -66,4 +80,10 @@ position: absolute;
   :root{
     font-size: 8px;
   }
+}
+@keyframes changeClr {
+to{
+  background:var(--bg);
+  color:var(--cl);
+}
 }

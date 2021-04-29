@@ -6,7 +6,7 @@ class Books extends React.Component{
     render(){
         return(
             <section>
-                <code>search for books,subjects,authors</code>
+                <code className="clr">search for books,subjects,authors</code>
              <div className="in">
             <input type="text" placeholder="search"/>
             <FontAwesomeIcon className="ico" icon={faSearch} />
@@ -15,7 +15,7 @@ class Books extends React.Component{
             <button>
                Go
             </button>
-            <h2>Available Books</h2>
+            <h2 className="clr">Available Books</h2>
             <div className="avb">
                 
             </div>
