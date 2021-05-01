@@ -15,7 +15,7 @@ textarea{
 }
 .send:active{
 background:var(--btn);
-animation:pulse 0.5s forwards;
+animation:pulse 0.05s forwards;
 }
 .name{
     border-radius:5px;
