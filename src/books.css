@@ -57,6 +57,10 @@ h2{
     overflow-y:scroll;
     border:1px outset black;
     border-radius: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-flow:row wrap;
 }
 
 button:active{

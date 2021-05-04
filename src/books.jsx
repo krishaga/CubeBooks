@@ -1,7 +1,8 @@
 import React from 'react';
 import './books.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import Subject from './Subject.jsx';
 class Books extends React.Component{
     render(){
         return(
@@ -17,7 +18,18 @@ class Books extends React.Component{
             </button>
             <h2 className="clr">Available Books</h2>
             <div className="avb">
-                
+                <Subject>physics</Subject>
+                <Subject>chemistry</Subject>
+                <Subject>maths</Subject>
+                <Subject>computer science</Subject>
+                <Subject>Englist Literature</Subject>
+                <Subject>Englist Language</Subject>
+                <Subject>accounts</Subject>
+                <Subject>commerce</Subject>
+                <Subject>Hindi</Subject>
+                <Subject>economics</Subject>
+                <Subject>History</Subject>
+                <Subject>Geography</Subject>
             </div>
             </section>
         )
