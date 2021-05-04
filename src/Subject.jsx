@@ -2,9 +2,9 @@ import React from 'react';
 import './Subject.css';
 
 class Subject extends React.Component{
-    constructor(props){
-    super(props);
-    }
+    // constructor(props){
+    // super(props);
+    // }
 render(){
     return(
         <select value="physics">
