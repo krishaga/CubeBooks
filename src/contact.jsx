@@ -1,6 +1,19 @@
 import React from 'react';
 import './contact.css'
 class Contact extends React.Component{
+    sendReq=()=>{
+var name=document.getElementsByClassName("name")[0].value;
+var msg=document.getElementsByTagName("textarea")[0].value;
+if(msg.length===0 || name.length===0){
+    alert("you must fill both the feilds");
+}
+else{
+    var xhttp=new XMLHttpRequest();
+    xhttp.open("POST", " https://cube-books-server.herokuapp.com", true);
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send("fname="+name+"&message="+msg);
+}
+    }
     render(){
         return(
             <section>
@@ -12,7 +25,7 @@ class Contact extends React.Component{
             
             <input type="text" className="name" placeholder="Full Name"/>
             
-            <button className="send">send</button>
+            <button className="send" onClicl={this.sendReq}>send</button>
             </section>
 
         )
