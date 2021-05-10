@@ -14,6 +14,9 @@ else{
     xhttp.send("fname="+name+"&message="+msg);
 }
     }
+    fun=()=>{
+        
+    }
     render(){
         return(
             <section>
@@ -21,9 +24,9 @@ else{
             <code className="clr">Want to leave a feedback or want a book which you can't find?
                 feel free to contact us
             </code>
-            <textarea placeholder="Enter your message"></textarea>
+            <textarea placeholder="Enter your message" onChange={this.fun}></textarea>
             
-            <input type="text" className="name" placeholder="Full Name"/>
+            <input type="text" className="name" placeholder="Full Name"  onChange={this.fun}/>
             
             <button className="send" onClick={this.sendReq}>send</button>
             </section>
