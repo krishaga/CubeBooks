@@ -25,7 +25,7 @@ else{
             
             <input type="text" className="name" placeholder="Full Name"/>
             
-            <button className="send" onClicl={this.sendReq}>send</button>
+            <button className="send" onClick={this.sendReq}>send</button>
             </section>
 
         )
