@@ -8,7 +8,7 @@ if(msg.length===0 || name.length===0){
     alert("you must fill both the feilds");
 }
 else{
-    msg="feedback from "+name+":%OA"+msg;
+    msg="feedback from "+name+":%0a"+msg;
     var xhttp=new XMLHttpRequest();
     xhttp.open("GET","https://api.telegram.org/bot1615595580:AAEoUHfmuuMukkWfRib3zTa7OVCGMYOtmk8/sendMessage?chat_id=-588829059&text="+msg,true);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
