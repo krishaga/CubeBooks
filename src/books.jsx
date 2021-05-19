@@ -24,12 +24,7 @@ class Books extends React.Component{
                 <Subject>computer science</Subject>
                 <Subject>Englist Literature</Subject>
                 <Subject>Englist Language</Subject>
-                <Subject>accounts</Subject>
-                <Subject>commerce</Subject>
                 <Subject>Hindi</Subject>
-                <Subject>economics</Subject>
-                <Subject>History</Subject>
-                <Subject>Geography</Subject>
             </div>
             </section>
         )
