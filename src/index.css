@@ -6,7 +6,7 @@ body,html{
 }
 body{
   --bg:#151d26;
-   background:white;
+   background:transparent;
 }
 code,h2{
   --cl:white;

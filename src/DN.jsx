@@ -103,10 +103,14 @@ names:["class 11 hornbil CBSE","class 11 snap shots CBSE","class 11 woven words 
               }
     }
   }
-  renderOriginal=()=>ReactDOM.render(<App></App>,document.getElementById("root"))
+  renderOriginal=()=>
+  {
+    ReactDOM.render(<App></App>,document.getElementById("root"))
+    document.getElementsByTagName("html")[0].classList.toggle("coolbg");
+}
     render(){
         let req=this.props.req;
-      //  document.getElementsByTagName("body")[0].style.background="url('./background.jpeg')";
+     document.getElementsByTagName("html")[0].classList.toggle("coolbg");
         let elems=[];
         // elems.push(<div onClick={this.renderOriginal} className="returnHome"><Logo></Logo></div>)
         if(this.res[req][this.props.subject].links.length===0){
