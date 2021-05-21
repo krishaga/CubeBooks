@@ -6,18 +6,19 @@ import './Subject.css';
 class Subject extends React.Component{
    
  addListner=(event)=>{
-//let sel=event.target;
+let sel=event.target;
 
-//var option=sel.options[sel.selectedIndex].value;
-ReactDOM.render(<DN></DN>,document.getElementById("root"));
+let option=sel.options[sel.selectedIndex].value;
+
+ReactDOM.render(<DN subject={this.props.name} req={option}></DN>,document.getElementById("root"));
 }
 render(){
     return(
         <select onChange={this.addListner}>
            <option>{this.props.children}</option>
-           <option>books</option>
-            <option>notes</option>
-            <option>question paper</option>
+           <option value="books">books</option>
+            <option value="notes">notes</option>
+            <option value="papers">question paper</option>
         </select>
     )
 }
