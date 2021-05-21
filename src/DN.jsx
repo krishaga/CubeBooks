@@ -22,8 +22,19 @@ names:["class 11 hornbil CBSE","class 11 snap shots CBSE","class 11 woven words 
           names:["ncert maths class 12 part 1","ncert maths class 11"]
         },
         physics:{
-            links:[],
-            names:[]
+            links:["https://drive.google.com/file/d/1-BWTpJViTpGXHQA0ZUjydJvHtrrsYrZR/view?usp=drivesdk",
+              "https://drive.google.com/file/d/1-3aKmtKJxhbah6nszyqiLifofkzMgUo_/view?usp=drivesdk",
+            "https://drive.google.com/file/d/1-99KMsuc5WF0VUhpyODXaSFM0BNxMCnm/view?usp=drivesdk",
+          "https://drive.google.com/file/d/1-HCMKOziyFHpQiUN_ZlBNOkr3ta01lw2/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1-9Lds7IIIMYLvpJievlrFSPkn-dlm4Md/view?usp=drivesdk",
+      "https://drive.google.com/file/d/1u3TBOjuZ63OoVvC79OGBTst5nQr2LyXi/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1aaPRsgProCg4GefaHX1V03A3ZNEhJw1w/view?usp=drivesdk",
+  "https://drive.google.com/file/d/188bmXdTyYAVKQBxL_BCeEKlP03OkKz3L/view?usp=drivesdk",
+"https://drive.google.com/file/d/1dYxHyLjatogTOtvGzv8kncroGqzyTf3y/view?usp=drivesdk"],
+            names:["dc pandey electricity and magnetism","dc pandey mechanics volume 1",
+          "dc pandey mechanics volume 2","dc pandey optics and modern physics volume 5",
+        "dc pandey waves and thermodynamics volume 3","hc verma part 1",
+      "hc verma part 2","hc verma part 1 solutions","hc verma part 2 solutions"]
           },
           comp:{
             links:[],
@@ -78,7 +89,7 @@ names:["class 11 hornbil CBSE","class 11 snap shots CBSE","class 11 woven words 
             names:[]
           },
           physics:{
-              links:[],
+              links:[""],
               names:[]
             },
             comp:{
@@ -106,7 +117,7 @@ names:["class 11 hornbil CBSE","class 11 snap shots CBSE","class 11 woven words 
   renderOriginal=()=>
   {
     ReactDOM.render(<App></App>,document.getElementById("root"))
-    document.getElementsByTagName("html")[0].classList.toggle("coolbg");
+      document.getElementsByTagName("html")[0].classList.toggle("coolbg");
 }
     render(){
         let req=this.props.req;
