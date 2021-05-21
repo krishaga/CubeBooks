@@ -1,5 +1,4 @@
 .nav{
-    position:relative;
     width:0px;
     height:0px;
     border-radius:50%;
@@ -11,16 +10,13 @@
 }
 .navAnime{
 display:grid; 
-justify-content:center;
-align-items:flex-end;
+ 
 animation:show 1s forwards;
 text-align:center;
 }
 .link{
-  position:absolute;
-  top:50%;
-  left:50%;
-   transform: translate(-70%,0%); 
+  
+    margin-top:50%
 }
 a{
     text-decoration:none;

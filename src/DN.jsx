@@ -111,14 +111,13 @@ names:["class 11 hornbil","class 11 snap shots","class 11 woven words","class 12
         // elems.push(<div onClick={this.renderOriginal} className="returnHome"><Logo></Logo></div>)
         if(this.res[req][this.props.subject].links.length===0){
           elems.push(<h1>Oops!</h1>)
-          elems.push(<code>Sorry but the resource you requested for 
-            <br/>is currently unavialabe.We will make it availabe ASAP<br/>
+          elems.push(<code>Sorry but the resource you requested for <br/>is currently unavialabe.We will try to make it available ASAP<br/>
           Till then stay home stay safe</code>)
         }
         for(let i=0;i<this.res[req][this.props.subject].links.length;i++){
            
             elems.push(<p className="download">{this.res[req][this.props.subject].names[i]}</p>)
-            elems.push(<div  class="link"><a href={this.res[req][this.props.subject].links[i]}><img src={icon} class="cubeico" alt="download"/></a></div>)
+            elems.push(<div  class="links"><a href={this.res[req][this.props.subject].links[i]}><img src={icon} class="cubeico" alt="download"/></a></div>)
         }
         return(<div class="container">
         <div onClick={this.renderOriginal} className="returnHome"><Logo></Logo></div>

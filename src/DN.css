@@ -4,10 +4,9 @@
     width:min(450px,85%);
     flex-flow:row wrap;
     align-items:baseline;
-    /* grid-template-columns:100%; */
-    /* grid-gap:5px; */
+   
    margin:0 auto;
-   /* overflow: hidden; */
+  
 }
 .download{
     color:black;
@@ -17,7 +16,7 @@
     
     font-size:1.5rem;
   }
-  .link{
+  .links{
       width:25%;
       text-align:center;
      
@@ -33,12 +32,7 @@
   }
   .container{
      height:100vh;
-     /* background:url('./background.jpeg'); */
-     background-size:100vh 100vh;
-     background-repeat: no-repeat;
-     width:100vh;
+    
+    
   }
-  html{
-      /* background: url('./background.jpeg'); */
-      /* background-repeat: no-repeat; */
-  }
+  
