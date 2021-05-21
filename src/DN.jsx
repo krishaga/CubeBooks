@@ -14,7 +14,7 @@ class DN extends React.Component{
     "https://drive.google.com/file/d/1p-ENSNQHezmLeuACytRW9e7pelc1-pJM/view?usp=drivesdk",
     "https://drive.google.com/file/d/1y1Ql0xOSty9RN9C7HFW8cHXACEJ_kPr6/view?usp=drivesdk"
 ],
-names:["class 11 hornbil","class 11 snap shots","class 11 woven words","class 12 flamingo","class 12 kaleidoscope","class 12 vistas"]
+names:["class 11 hornbil CBSE","class 11 snap shots CBSE","class 11 woven words CBSE","class 12 flamingo CBSE","class 12 kaleidoscope CBSE","class 12 vistas CBSE"]
         },
         maths:{
           links:["https://drive.google.com/file/d/11DZyXjeylgLjcb4HcLLSoYgk5AnQ04o7/view?usp=drivesdk",
