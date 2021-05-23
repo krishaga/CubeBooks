@@ -7,6 +7,8 @@ body,html{
 body{
   --bg:#151d26;
    background:transparent;
+   margin-top:10%;
+   animation:moveUp 2s forwards;
 }
 code,h2{
   --cl:white;
@@ -84,6 +86,11 @@ to{
   background:var(--bg);
   color:var(--cl);
 }
+}
+@keyframes moveUp{
+  to{
+    margin-top:initial;
+  }
 }
 @media not all and (hover:none){
   button:hover{
