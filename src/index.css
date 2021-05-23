@@ -4,11 +4,13 @@ body,html{
   overflow-x:hidden;
 
 }
+
 body{
   --bg:#151d26;
    background:transparent;
-   margin-top:10%;
-   animation:moveUp 2s forwards;
+   position:relative;
+   /* top:10%;
+   animation:moveUp 2s forwards; */
 }
 code,h2{
   --cl:white;
@@ -16,6 +18,8 @@ code,h2{
 }
 html{
   scroll-behavior: smooth;
+  margin-top:10%;
+  animation:moveUp 2s forwards;
 }
 .wrap{
   display:flex;
@@ -88,9 +92,7 @@ to{
 }
 }
 @keyframes moveUp{
-  from{
-    margin-top:10%;
-  }
+ 
   to{
     margin-top:8px;
   }
