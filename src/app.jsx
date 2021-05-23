@@ -26,6 +26,7 @@ class App extends React.Component{
         <Logo></Logo>
        <div class="wrap"><Header></Header></div>
         <h1>welcome to cube books, the no 1 place to get all your books for free</h1>
+        <h1 className="hope">we will be constantly uploading more books for all the subjects</h1>
       </div>
       <div class="wrapper">
       <div id="books">

@@ -248,6 +248,7 @@ class DN extends React.Component{
             elems.push(<div  class="links"><a href={this.res[req][this.props.subject].links[i]}><img src={icon} class="cubeico" alt="download"/></a></div>)
         }
         return(<div class="container">
+      
         <div onClick={this.renderOriginal} className="returnHome"><Logo></Logo></div>
         <div className="download-wrapper">{elems}</div>
         </div>)
