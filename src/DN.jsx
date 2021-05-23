@@ -200,6 +200,7 @@ class DN extends React.Component{
     render(){
         let req=this.props.req;
      document.getElementsByTagName("html")[0].classList.toggle("coolbg");
+     document.getElementsByTagName("body")[0].classList.remove("clrAnime");
         let elems=[];
         // elems.push(<div onClick={this.renderOriginal} className="returnHome"><Logo></Logo></div>)
         if(this.res[req][this.props.subject].links.length===0){

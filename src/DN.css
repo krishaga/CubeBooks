@@ -32,6 +32,16 @@
       bottom:0;
       right:0;
   }
+  .returnHome::after{
+      content:"click for home page";
+      position:absolute;
+      /* position:absolute; */
+      /* top:-5px; */
+      left:5%;
+     top:60%;
+     font-weight:bold;
+     font-size:10px;
+  }
   .container{
      height:100vh;
     
