@@ -14,9 +14,7 @@ class App extends React.Component{
   loadLinkedin=()=>{
     window.location.assign('https://www.linkedin.com/company/78048587')
   }
-  loadMail=()=>{
-    window.location.assign('https://cubebooks.netlify@gmail.com')
-  }
+  
     render(){
         return(<div id="page">
         <div id="home">
@@ -37,7 +35,7 @@ class App extends React.Component{
       </div>
       <div className="social">
       <i className="fab fa-linkedin" info="linkedin" onClick={this.loadLinkedin}></i>
-      <i class="fas fa-envelope" info="gmail" onClick={this.loadMail}></i>
+
       </div>
       </div>)
     }
