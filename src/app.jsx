@@ -7,8 +7,16 @@ import './index.css';
 import Contact from './contact.jsx';
 import Nav from './Nav.jsx';
 import Switch from './switch.jsx';
-
+import './app.css';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 class App extends React.Component{
+  loadLinkedin=()=>{
+    window.location.assign('https://www.linkedin.com/company/78048587')
+  }
+  loadMail=()=>{
+    window.location.assign('https://cubebooks.netlify@gmail.com')
+  }
     render(){
         return(<div id="page">
         <div id="home">
@@ -26,6 +34,10 @@ class App extends React.Component{
       <Books></Books>
       </div>
       <div id="contact"><Contact></Contact></div>
+      </div>
+      <div className="social">
+      <i className="fab fa-linkedin" info="linkedin" onClick={this.loadLinkedin}></i>
+      <i class="fas fa-envelope" info="gmail" onClick={this.loadMail}></i>
       </div>
       </div>)
     }
