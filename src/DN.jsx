@@ -106,9 +106,17 @@ class DN extends React.Component{
           },
           bio:{
             links:["https://drive.google.com/file/d/12E0s30FJRFL1cjHp6UAlRBZY1piZxUcV/view?usp=sharing",
-                   "https://drive.google.com/file/d/12DNHSPUNdmS2TFrI9AAMair3v5n0STpl/view?usp=sharing"],
+                   "https://drive.google.com/file/d/12DNHSPUNdmS2TFrI9AAMair3v5n0STpl/view?usp=sharing",
+                  "https://drive.google.com/file/d/18FGcMpmRaih0Z17S78renWxRKJ-hrEHu/view?usp=drivesdk",
+                  "https://drive.google.com/file/d/18CkKtj_WKvZgFXrPQC0J2VXBCDVr3Ol-/view?usp=drivesdk",
+                  "https://drive.google.com/file/d/17JlfHVhhtoQ85nZURjaIUCuj0019054_/view?usp=drivesdk",
+                  "https://drive.google.com/file/d/17EJ2OpVoK-C_j04hP93PvSTwP0fX2ZQH/view?usp=drivesdk"],
             names:["Master the NCERT for NEET Vol-1",
-                   "Master the NCERT for NEET Vol-2"]
+                   "Master the NCERT for NEET Vol-2",
+                   "modern ABC biology class 12th part 1",
+                   "modern ABC biology class 12th part 2",
+                   "modern ABC biology class 11th part 1",
+                   "modern ABC biology class 11th part 2"]
           }
     },
     notes:{
