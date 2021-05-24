@@ -143,14 +143,16 @@ class DN extends React.Component{
                   "https://drive.google.com/file/d/11FTYOCK4ftrijl9gvJpg_GkaVDgTeG0b/view?usp=sharing",
                   "https://drive.google.com/file/d/112Mm5tyzJ88JLIiKkz0qv_mM05_7QdbO/view?usp=sharing",
                   "https://drive.google.com/file/d/10x_m_qTKs5EOKEXU0pECiHpdQ1JKEmRl/view?usp=sharing",
-                  "https://drive.google.com/file/d/11JnAOSf5CK_XfRkB8GA452sJfmpMwvUY/view?usp=sharing"],
+                  "https://drive.google.com/file/d/11JnAOSf5CK_XfRkB8GA452sJfmpMwvUY/view?usp=sharing",
+                   "https://drive.google.com/file/d/14cYpACLmGNiqAfelq187PgZImilUGJOI/view?usp=drivesdk"],
             names:["Complex Number",
                   "Algebra all formulas",
                   "Sequence and Series all formulas",
                   "Sets all formulas",
                   "Straight line all Formulas",
                   "Triangle all formulas iit jee",
-                  "Vectors all formulas"]
+                  "Vectors all formulas",
+               "formula booklet"]
           },
           physics:{
               links:["https://drive.google.com/file/d/1rzq_b604NJRr7hCNu2y5v53LpJeGtk7A/view?usp=sharing"],
