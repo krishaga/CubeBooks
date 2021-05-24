@@ -35,7 +35,11 @@ class DN extends React.Component{
               "https://drive.google.com/file/d/14WumgZAZP7SpKhgaO_JjN18Gb2doKtk9/view?usp=drivesdk",
             "https://drive.google.com/file/d/14Iflb4Gt7BHOblT7ranyKhy2J10KHKvQ/view?usp=drivesdk",
             "https://drive.google.com/file/d/14OvuyrWoB9A50jboAqPBPejilco2uhTC/view?usp=drivesdk",
-           "https://drive.google.com/file/d/1-DZ3cWfd2PhtHr5sjubgVWr21GXeB9Ve/view?usp=drivesdk"],
+           "https://drive.google.com/file/d/1-DZ3cWfd2PhtHr5sjubgVWr21GXeB9Ve/view?usp=drivesdk",
+          "https://drive.google.com/file/d/1-7snENro_10FzN2Oo2LW6-zsz9ZNRWIW/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1-16QrwhktQ-mj5E4s-X0TT8g6SRKHI0M/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1-BANz8-ZCwrP7O9gsu1P-36VhRT2lOpZ/view?usp=drivesdk",
+       "https://drive.google.com/file/d/1-9wjxeBZk0ru9lUAwJhSLry_IgO8JSLx/view?usp=drivesdk"],
           names:["NCERT Maths Class 12 Part 1",
                  "NCERT Maths Class 12 Part 2",
                  "NCERT Maths Class 11",
@@ -50,7 +54,11 @@ class DN extends React.Component{
              "Cengage coordinate geometry",
              "Cengage Trignometry",
             "Cengage vector and  3d",
-           "S Chand class 11 ISC mathematics book 1"]
+           "S Chand class 11 ISC mathematics book 1",
+            "Cengage trignometry DPP",
+           "Cengage trignometry DPP solution",
+          "Cengage vector and 3d geometry DPP",
+         "Cengage vector and 3d geometry DPP solution"]
         },
         physics:{
             links:["https://drive.google.com/file/d/1-3aKmtKJxhbah6nszyqiLifofkzMgUo_/view?usp=sharing",
