@@ -12,13 +12,15 @@ class DN extends React.Component{
                    "https://drive.google.com/file/d/1HdxGfPakT1t6SwqQg3dTe803xl8w3CgH/view?usp=sharing",
                    "https://drive.google.com/file/d/1M0NA4YvTS2eYUtNxOO0MATNrT3wWjqB7/view?usp=sharing",
                    "https://drive.google.com/file/d/1y1Ql0xOSty9RN9C7HFW8cHXACEJ_kPr6/view?usp=sharing",
-                   "https://drive.google.com/file/d/1p-ENSNQHezmLeuACytRW9e7pelc1-pJM/view?usp=sharing"],
+                   "https://drive.google.com/file/d/1p-ENSNQHezmLeuACytRW9e7pelc1-pJM/view?usp=sharing",
+                  "https://drive.google.com/file/d/10tJp1u91_5Lo2KG5oE_kQYlY20Lb1AON/view?usp=drivesdk"],
             names:["Hornbil Class 11 CBSE",
                    "Snap Shots Class 11 CBSE",
                    "Woven words Class 11 CBSE",
                    "Flamingo Class 12 CBSE",
                    "Vistas Class 12 CBSE",
-                   "Kalidieo Class 12 CBSE"]
+                   "Kalidieo Class 12 CBSE",
+                   "reverie ISC poems"]
         },
         maths:{
           links:["https://drive.google.com/file/d/11DZyXjeylgLjcb4HcLLSoYgk5AnQ04o7/view?usp=sharing",
