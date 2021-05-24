@@ -206,9 +206,33 @@ class DN extends React.Component{
             },
             english:{
               links:["https://drive.google.com/file/d/159B2LMe2SB0HoPI_WSHipt4Kij1d3dWl/view?usp=sharing",
-              "https://drive.google.com/file/d/15LSFwTwvCBd74USOIHzqfhh9QUJ-1qs_/view?usp=sharing"],
+              "https://drive.google.com/file/d/15LSFwTwvCBd74USOIHzqfhh9QUJ-1qs_/view?usp=sharing",
+              "https://drive.google.com/file/d/1-4agyVqZhK_QMjyibTYEcHe6AXJRX7jC/view?usp=drivesdk",
+           "https://drive.google.com/file/d/10D0BXFOuz4jiJEaPO4MnGArQIzPnYKsQ/view?usp=drivesdk",
+         "https://drive.google.com/file/d/1-6Lz4aASxD-2d3poqhB0toQppMU3IuGm/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1-8OxTCvePXOj3KBJpdURgp6aXLi5cqJy/view?usp=drivesdk",
+       "https://drive.google.com/file/d/10GqLAOlDLfXgreu5HF0nCgqjgyVskk0z/view?usp=drivesdk",
+       "https://drive.google.com/file/d/10Iopv1rJWzOdpJYJY41LtuA3ne_3krMz/view?usp=drivesdk",
+       "https://drive.google.com/file/d/1-9BhaNvwx6Wj15BMio_4gyMQ3pKWr3EO/view?usp=drivesdk",
+      "https://drive.google.com/file/d/1-HiXJLx01XBdL006t92hNjmF7oT0mybg/view?usp=drivesdk",
+       "https://drive.google.com/file/d/1-Or4lnOiVJ3rzDhN02kzmvoiEeeapn2b/view?usp=drivesdk",
+     "https://drive.google.com/file/d/1-QWbcIbeWDDExkv2N6XHWym8nHeafMeG/view?usp=drivesdk",
+     "https://drive.google.com/file/d/1-QvFM4s4jTuqKx2toOQIaz5n_pQ1mZ8M/view?usp=drivesdk",
+   "https://drive.google.com/file/d/1-ZPQdAJSUYff0ZhvZJuEpZfvBjnhW_JE/view?usp=drivesdk"],
        names:["English Core Important Questions CBSE",
-              "English Handwritten Notes Class 12 CBSE"]
+              "English Handwritten Notes Class 12 CBSE",
+             "tempest act 1 scene 1 notes",
+            "tempest act 1 scene 1 extra notes",
+           "tempest act 1 scene 2 important notes",
+        "tempest act 2 scene 1 important notes",
+        "tempest act 2 scene 1 extra notes",
+        "tempest act 2 scene 2 extra notes",
+       "tempest act 2 scene 2 important notes",
+     "tempest act 3 scene 1 important notes",
+      "tempest act 3 scene 2 important notes",
+      "tempest act 3 scene 3 important notes",
+     "tempest act 4 scene 1 important notes",
+    "tempest act 5 scene 1 important notes"]
               }
     },
     papers:{
@@ -272,9 +296,19 @@ class DN extends React.Component{
             },
             english:{
               links:["https://drive.google.com/file/d/14igKEAOEbnOx2PYG9_LB-dAA4RUQVptv/view?usp=sharing",
-                    "https://drive.google.com/file/d/15YVqHDHFeTSTdxQyo-vnBOIZhUERh_E1/view?usp=drivesdk"],
+                    "https://drive.google.com/file/d/15YVqHDHFeTSTdxQyo-vnBOIZhUERh_E1/view?usp=drivesdk",
+                     "https://drive.google.com/file/d/1-hZZ0v28YTCVSWsuIHT6V9zFHUDeY8F1/view?usp=drivesdk",
+                     "https://drive.google.com/file/d/1-iyHOo1l5BGeDKodwC5TsXWPDfCHQV92/view?usp=drivesdk",
+                     "https://drive.google.com/file/d/1-t-0iTSBkNQ2gKEVdoclqE_epIpFOe41/view?usp=drivesdk",
+                     "https://drive.google.com/file/d/1-tUnru40bq_QVh12zak3n3zVjq093ssT/view?usp=drivesdk",
+                      "https://drive.google.com/file/d/1-_RvtXu-bgXHz32ffdCGwAUQm1lqBVA3/view?usp=drivesdk"],
               names:["Scoremore 21 Sample Paper for CBSE Class 12",
-                     "Oswal english sample paper"]
+                     "Oswal english sample paper",
+                       "tempest important questions 1",
+                      "tempest important questions 2",
+                      "tempest important questions 3",
+                      "tempest important questions 4",
+                      "tempest long questions"]
               }
     }
   }
