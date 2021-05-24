@@ -49,7 +49,8 @@ class DN extends React.Component{
                    "https://drive.google.com/file/d/11lv8jOqmwInJDymd6u8VEV2JgQdwWmBn/view?usp=sharing",
                    "https://drive.google.com/file/d/11pNNpAWHsSDZ_2ryoZ7SRkEpXbs4ZcQ-/view?usp=sharing",
                    "https://drive.google.com/file/d/10rIIfj0JUyLg40QOz6VAlONfVMy_SkaU/view?usp=sharing",
-                   "https://drive.google.com/file/d/10rguzSUtTWhT5ZcwxDksYMiJ74XFOJXy/view?usp=sharing"],
+                   "https://drive.google.com/file/d/10rguzSUtTWhT5ZcwxDksYMiJ74XFOJXy/view?usp=sharing",
+                   "https://drive.google.com/file/d/15pVxkyRkrGxji8NguUS3hygCbNG_40UD/view?usp=drivesdk"],
             names:["DC Pandey Mechanics Volume 1",
                    "DC Pandey Mechanics Volume 2",
                    "DC Pandey Waves and Thermodynamics Volume 3",
@@ -62,7 +63,8 @@ class DN extends React.Component{
                    "Resnick Halliday",
                    "Physics Handbook by Arihant",
                    "Problems in General Physics I.E. Irodov",
-                   "Solution to I.E. Irodov"]
+                   "Solution to I.E. Irodov",
+                  "Nootan Physics class 12th"]
           },
           comp:{
             links:["https://drive.google.com/file/d/13zka_gumPfuQlVeIGwv2n_zQ2zbptEiR/view?usp=sharing",

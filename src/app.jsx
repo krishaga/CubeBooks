@@ -12,9 +12,11 @@ import './app.css';
 // import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 class App extends React.Component{
   loadLinkedin=()=>{
-    window.location.assign('https://www.linkedin.com/company/78048587')
+    window.location.assign("https://www.linkedin.com/company/78048587")
   }
-  
+  loadInsta=()=>{
+    window.location.assign("https://instagram.com/_krish._.agarwal_?utm_medium=copy_link")
+  }
     render(){
         return(<div id="page">
         <div id="home">
@@ -36,7 +38,7 @@ class App extends React.Component{
       </div>
       <div className="social">
       <i className="fab fa-linkedin" info="linkedin" onClick={this.loadLinkedin}></i>
-
+      <i className="fab fa-instagram" info="instagram" onClick={this.loadInsta}></i>
       </div>
       </div>)
     }
