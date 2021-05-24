@@ -166,9 +166,17 @@ class DN extends React.Component{
             },
             bio:{
               links:["https://drive.google.com/file/d/12zc1zt2AqI1CMSM4c2z-9jpoXwBhaX5x/view?usp=sharing",
-              "https://drive.google.com/file/d/12zIAz5fpw0ZvMvcMfT8iEvfmlBNkxtEW/view?usp=sharing"],
+              "https://drive.google.com/file/d/12zIAz5fpw0ZvMvcMfT8iEvfmlBNkxtEW/view?usp=sharing",
+              "https://drive.google.com/file/d/18QQc7hQpo-5YI1AtoNJCZ_umsZPWjLj-/view?usp=drivesdk",
+               "https://drive.google.com/file/d/18Pje3vmM3x5DWxewOJWkAUlp-usItYzV/view?usp=drivesdk",
+              "https://drive.google.com/file/d/18SlxVewZblNqGU32ulVYX4zWlCqTNogQ/view?usp=drivesdk",
+             "https://drive.google.com/file/d/18OYJ5QGFZ3bMtXVkiA0e2pjwZkgaGmpX/view?usp=drivesdk"],
        names:["Animal Kingdom Handwritten Notes",
-              "Human Reproduction Short Notes",]
+              "Human Reproduction Short Notes",
+               "chemical coordination and integration",
+               "digestion and absorsption",
+              "mineral nutrition",
+             "morphology of flowering plants"]
             },
             english:{
               links:["https://drive.google.com/file/d/159B2LMe2SB0HoPI_WSHipt4Kij1d3dWl/view?usp=sharing",
