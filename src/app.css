@@ -43,7 +43,8 @@ border-radius:2px;
     width:min(450px,95%);
     flex-flow:row wrap;
     border:1px solid red;
-    margin:0 auto;
+    margin:10px auto;
     font-size:1.3rem;
     padding:5px;
+    
 }

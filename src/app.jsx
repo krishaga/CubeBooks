@@ -17,6 +17,9 @@ class App extends React.Component{
   loadInsta=()=>{
     window.location.assign("https://instagram.com/_krish._.agarwal_?utm_medium=copy_link")
   }
+  loadGmail=()=>{
+    window.location.assign("mailto:cubebooks.netlify@gmail.com")
+  }
     render(){
         return(<div id="page">
         <div id="home">
@@ -39,6 +42,7 @@ class App extends React.Component{
       <div className="social">
       <i className="fab fa-linkedin" info="linkedin" onClick={this.loadLinkedin}></i>
       <i className="fab fa-instagram" info="instagram" onClick={this.loadInsta}></i>
+      <i class="fas fa-envelope" info="gmail" onClick={this.loadGmail}></i>
       </div>
       <div className="disclaimer">DISCLAIMER! All or most of the books in the website have been obtained 
       from various different sources from the internet. If you feel that you have a copyright over any of 
