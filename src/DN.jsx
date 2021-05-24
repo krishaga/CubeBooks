@@ -245,8 +245,10 @@ class DN extends React.Component{
               "Scoremore 21 Sample Paper"]
             },
             english:{
-              links:["https://drive.google.com/file/d/14igKEAOEbnOx2PYG9_LB-dAA4RUQVptv/view?usp=sharing"],
-              names:["Scoremore 21 Sample Paper for CBSE Class 12"]
+              links:["https://drive.google.com/file/d/14igKEAOEbnOx2PYG9_LB-dAA4RUQVptv/view?usp=sharing",
+                    "https://drive.google.com/file/d/15YVqHDHFeTSTdxQyo-vnBOIZhUERh_E1/view?usp=drivesdk"],
+              names:["Scoremore 21 Sample Paper for CBSE Class 12",
+                     "Oswal english sample paper"]
               }
     }
   }
