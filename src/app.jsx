@@ -15,7 +15,7 @@ class App extends React.Component{
     window.location.assign("https://www.linkedin.com/company/78048587")
   }
   loadInsta=()=>{
-    window.location.assign("https://instagram.com/_krish._.agarwal_?utm_medium=copy_link")
+    window.location.assign("https://www.instagram.com/cubebooks/")
   }
   loadGmail=()=>{
     window.location.assign("mailto:cubebooks.netlify@gmail.com")
