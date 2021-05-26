@@ -140,7 +140,7 @@ class DN extends React.Component{
             "Physical Chemistry-P.Bahadur",
             "Companion Chemistry XI",
             "VK Jaiswal inorganic chemistry Part-1",
-            "VK Jaiswal inorganic chemistry Part-2 
+            "VK Jaiswal inorganic chemistry Part-2", 
             "N Awasthi physical chemistry problems",
             "Organic chemistry Himanshu Pandey",
             "Pradeep Chemistry Book Class 11",
