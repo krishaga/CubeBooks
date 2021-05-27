@@ -46,7 +46,8 @@ class DN extends React.Component{
                  "https://drive.google.com/file/d/1-9wjxeBZk0ru9lUAwJhSLry_IgO8JSLx/view?usp=drivesdk",
                  "https://drive.google.com/file/d/16T8S9SL2nyz4Ojpn3awkzAqQaImDE2Fa/view?usp=drivesdk",
                  "https://drive.google.com/file/d/17SGmVsx7i7Wqyqm47_KCi-fUm52KIzxW/view?usp=drivesdk",
-                 "https://drive.google.com/file/d/16GzHlQjzPDDJEgdK7fIsXVJAcjy6KSD4/view?usp=sharing"],
+                 "https://drive.google.com/file/d/16GzHlQjzPDDJEgdK7fIsXVJAcjy6KSD4/view?usp=sharing",
+                 "https://drive.google.com/file/d/18Gboe7EZsOSbeYoHO93lqbpRsgG4IP8d/view?usp=drivesdk"],
           names:["NCERT Maths Class 12 Part 1",
                  "NCERT Maths Class 12 Part 2",
                  "NCERT Maths Class 11",
@@ -68,7 +69,8 @@ class DN extends React.Component{
                  "Cengage vector and 3d geometry DPP solution",
                  "Playing With Graphs by Amit M Aggarwal",
                  "Handbook of Maths by Arihant",
-                 "Ncert Maths Exemplar Problems"]
+                 "Ncert Exemplar Maths Class 11",
+                 "Ncert Exemplar Maths Class 12"]
         },
         physics:{
             links:["https://drive.google.com/file/d/1-3aKmtKJxhbah6nszyqiLifofkzMgUo_/view?usp=sharing",
@@ -85,7 +87,8 @@ class DN extends React.Component{
                    "https://drive.google.com/file/d/10rIIfj0JUyLg40QOz6VAlONfVMy_SkaU/view?usp=sharing",
                    "https://drive.google.com/file/d/10rguzSUtTWhT5ZcwxDksYMiJ74XFOJXy/view?usp=sharing",
                    "https://drive.google.com/file/d/15pVxkyRkrGxji8NguUS3hygCbNG_40UD/view?usp=drivesdk",
-                   "https://drive.google.com/file/d/15OKkXb4gF4FBtTFkHL_hL9N98y9B7qlH/view?usp=sharing"],
+                   "https://drive.google.com/file/d/15OKkXb4gF4FBtTFkHL_hL9N98y9B7qlH/view?usp=sharing",
+                   "https://drive.google.com/file/d/17bvTxDRmSLRrk1nbbb9XTh2cjhoJv8jm/view?usp=drivesdk"],
             names:["DC Pandey Mechanics Volume 1",
                    "DC Pandey Mechanics Volume 2",
                    "DC Pandey Waves and Thermodynamics Volume 3",
@@ -100,7 +103,8 @@ class DN extends React.Component{
                    "Problems in General Physics I.E. Irodov",
                    "Solution to I.E. Irodov",
                    "Nootan Physics class 12th",
-                   "Ncert Physics Exemplar Problems"]
+                   "Ncert Exemplar Physics Class 11"
+                   "Ncert Exemplar Physics Class 12"]
           },
           comp:{
             links:["https://drive.google.com/file/d/13zka_gumPfuQlVeIGwv2n_zQ2zbptEiR/view?usp=sharing",
@@ -128,7 +132,9 @@ class DN extends React.Component{
                    "https://drive.google.com/file/d/12YJdVCAFDo115EMpMmBwPVKK5-RBLdiX/view?usp=drivesdk",
                    "https://drive.google.com/file/d/138txf6uktVVrWV0g1DkA58ZYkgFM0IDs/view?usp=drivesdk",
                    "https://drive.google.com/file/d/1fib4Z9fdYj0GAweUX9OQD10n66KlZ72Q/view?usp=drivesdk",
-                   "https://drive.google.com/file/d/14jAt6DliRWf3jrMHdb6w8wjsFF7Uush3/view?usp=sharing"],
+                   "https://drive.google.com/file/d/14jAt6DliRWf3jrMHdb6w8wjsFF7Uush3/view?usp=sharing",
+                   "https://drive.google.com/file/d/16pYmSDqZimCyw_JjyeAhgvvWF1UnOCwo/view?usp=drivesdk",
+                   "https://drive.google.com/file/d/16EM8cc5NXwy9ZWyW_010M7NcnBNuxWlS/view?usp=drivesdk"],
      names:["Organic Chemistry - M.S.Chouhan",
             "Ms Chauhan Organic Chemistry Part 1 ",
             "Ms Chauhan Organic Chemistry Part 2 ",
@@ -144,7 +150,9 @@ class DN extends React.Component{
             "N Awasthi physical chemistry problems",
             "Organic chemistry Himanshu Pandey",
             "Pradeep Chemistry Book Class 11",
-            "Ncert Chemistry Exemplar Problems"]
+            "Ncert Exemplar Chemistry Class 11",
+            "Ncert Exemplar Chemistry Class 12",
+            "R.C. Mukherjee Chemistry"]
           },
           bio:{
             links:["https://drive.google.com/file/d/12E0s30FJRFL1cjHp6UAlRBZY1piZxUcV/view?usp=sharing",
@@ -164,7 +172,7 @@ class DN extends React.Component{
                    "Modern ABC Biology class 11th part 2",
                    "CLASS 12 ALL IN ONE BIOLOGY",
                    "A Textbook of CBSE Biology class 11 by S Chand Publications ",
-                   "Ncert Biology Exemplar Problems"]
+                   "Ncert Exemplar Biology Class 11"]
           }
     },
     notes:{
@@ -187,8 +195,12 @@ class DN extends React.Component{
                    "formula booklet"]
           },
           physics:{
-              links:["https://drive.google.com/file/d/1rzq_b604NJRr7hCNu2y5v53LpJeGtk7A/view?usp=sharing"],
-              names:["ALL CHAPTER NOTES"]
+              links:["https://drive.google.com/file/d/1rzq_b604NJRr7hCNu2y5v53LpJeGtk7A/view?usp=sharing",
+                     "https://drive.google.com/file/d/13m9-LL-b2mMyPQpqzOXljQwh6gcQ2vRx/view?usp=drivesdk",
+                     "https://drive.google.com/file/d/13hoGxo7mGOdh-iThYfioipVX5jlQLEyY/view?usp=drivesdk"],
+              names:["ALL CHAPTER NOTES",
+                     "Allen Physics Handwritten notes class 11",
+                     "Allen Physics Handwritten notes class 12"]
             },
             comp:{
               links:["https://drive.google.com/file/d/157WomfUFJh2EUAWuWkYC3fAnCp3InXNV/view?usp=sharing"],
@@ -272,12 +284,14 @@ class DN extends React.Component{
               links:["https://drive.google.com/file/d/10rr1dK6Ihl7cxSdDS8CaJk3k5WTrFI19/view?usp=sharing",
                      "https://drive.google.com/file/d/10u8rs8Zmo8tTHDi-ZxaGO6Ve5MFgzth_/view?usp=sharing",
                      "https://drive.google.com/file/d/10n2GdJ7rD3mt_s2x948kAvMrFiwqQBnH/view?usp=sharing",
-                     "https://drive.google.com/file/d/10kNEdTn2-v2mLUGfsOXK5dAp4jyJH_cL/view?usp=sharing"],
+                     "https://drive.google.com/file/d/10kNEdTn2-v2mLUGfsOXK5dAp4jyJH_cL/view?usp=sharing",
+                     "https://drive.google.com/file/d/1KoxojnwiFGwfwT8jtNKwraf823FPEQIo/view?usp=drivesdk"],
               names:["750+ BLOCKBUSTER PROBLEMS",
                     "43 Years JEE Mains & Advance Solved Papers",
                     "Chapterwise Question Bank with Solution Class 11 & 12",
-                    "Scormore 21 Sample Paper Physics"]
-            },
+                    "Scormore 21 Sample Paper Physics",
+                    "Colection of IIT JEE Papers from 1978 to 2018"]
+             } 
             comp:{
               links:["https://drive.google.com/file/d/166Smpkqy9GrMBpBIGeJG9BVA7sNUm7VE/view?usp=sharing",
                      "https://drive.google.com/file/d/15ogrBGiG6azT4MzD7Yu0TvHoQCVI2dZK/view?usp=sharing",
