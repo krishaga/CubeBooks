@@ -325,7 +325,7 @@ class DN extends React.Component{
                      "https://drive.google.com/file/d/1-iyHOo1l5BGeDKodwC5TsXWPDfCHQV92/view?usp=drivesdk",
                      "https://drive.google.com/file/d/1-t-0iTSBkNQ2gKEVdoclqE_epIpFOe41/view?usp=drivesdk",
                      "https://drive.google.com/file/d/1-tUnru40bq_QVh12zak3n3zVjq093ssT/view?usp=drivesdk",
-                      "https://drive.google.com/file/d/1-_RvtXu-bgXHz32ffdCGwAUQm1lqBVA3/view?usp=drivesdk"],
+                     "https://drive.google.com/file/d/1-_RvtXu-bgXHz32ffdCGwAUQm1lqBVA3/view?usp=drivesdk"],
               names:["Scoremore 21 Sample Paper for CBSE Class 12",
                      "Oswal english sample paper",
                      "Tempest important questions 1",
